@@ -1,3 +1,11 @@
+.page-title {
+    font-size: 3em;
+    color: yellow;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
 .carousel {
     width: 300px;
     height: 200px;
@@ -12,6 +20,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: Arial, sans-serif;
+    margin-bottom: 20px;
 }
 
 .joke-content {
@@ -35,4 +44,23 @@
 
 .carousel-button:active {
     transform: scale(0.95);
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+#searchResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-result {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.search-result:hover {
+    text-decoration: underline;
 }
