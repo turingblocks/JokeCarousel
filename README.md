@@ -1,6 +1,6 @@
 # Joke Carousel for Phil
 
-Hello Phil! This is the simple joke caurosel we talked about a while back, here it is if you still need/want it. It's a fun little web application that displays a series of jokes, and you can click a button to go to the next joke.
+Hello Phil! This is the simple joke caurosel we talked about a while back, here it is if you still need/want it. It's a fun little web application that displays a series of jokes, and you can click a button to go to the next joke. I remember you talking about possibly displaying it on your website which I have included instructions on how to do so if you wish.
 
 :file_folder: Files Included
 * index.html - This is the main HTML file that contains the structure of the web page.
