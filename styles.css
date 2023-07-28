@@ -1,0 +1,38 @@
+.carousel {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    padding: 20px;
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.joke-content {
+    text-align: center;
+    font-size: 16px;
+}
+
+.carousel-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.carousel-button:hover {
+    background-color: #0056b3;
+}
+
+.carousel-button:active {
+    transform: scale(0.95);
+}
