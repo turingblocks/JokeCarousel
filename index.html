@@ -5,11 +5,19 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <h1 class="page-title">LAUGHTA :)</h1>
     <div class="carousel">
         <div class="joke-content">
             <!-- Joke content will be loaded here -->
         </div>
         <button class="carousel-button" onclick="nextJoke()">Next Joke</button>
+    </div>
+    <div class="search">
+        <input type="text" id="searchBox" placeholder="Search jokes...">
+        <button onclick="searchJokes()">Search</button>
+    </div>
+    <div id="searchResults">
+        <!-- Search results will be loaded here -->
     </div>
     <script src="script.js"></script>
 </body>
